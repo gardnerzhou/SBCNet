@@ -1,0 +1,9 @@
+name: lits
+
+_target_: tuSeg.data.SegDataModule
+# Use absolute path for input to avoid messing with hydra output paths
+dataset: lits
+data_dir: /workspace/mountdisk/experiment/ablation/data/lits
+batch_size: 4
+num_workers: 12
+patch_size: [96, 96, 96]

@@ -1,0 +1,6 @@
+name: SegModel
+
+_target_: tuSeg.model.segmodel.SegModel
+
+defaults:
+  - /optim/adam.yaml
